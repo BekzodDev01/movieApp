@@ -5,7 +5,9 @@ export default {
     htmlAttrs: {
       lang: "en",
     },
-
+    generate: {
+      fallback: true,
+    },
     target: "static",
     meta: [
       { charset: "utf-8" },
